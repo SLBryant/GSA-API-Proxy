@@ -1,0 +1,23 @@
+{
+  "name": "gsa-api-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbfranklin/gsa-api-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbfranklin/gsa-api-proxy/issues"
+  },
+  "homepage": "https://github.com/cbfranklin/gsa-api-proxy#readme",
+  "dependencies": {
+    "express": "^4.12.4",
+    "request": "^2.58.0"
+  }
+}
