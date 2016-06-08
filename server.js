@@ -4,9 +4,6 @@ var request = require('request');
 var express = require('express');
 var app = express();
 
-SSLCertificateFile    /etc/letsencrypt/live/dev.oagov.com/cert.pem
-        SSLCertificateKeyFile /etc/letsencrypt/live/dev.oagov.com/privkey.pem
-
 var options = {
   key: fs.readFileSync('/etc/letsencrypt/live/dev.oagov.com/cert.pem'),
   cert: fs.readFileSync('/etc/letsencrypt/live/dev.oagov.com/privkey.pem')
