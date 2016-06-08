@@ -1,12 +1,12 @@
 #!/usr/bin/node
-var fs = require('fs');
+//var fs = require('fs');
 var request = require('request');
 var express = require('express');
 var app = express();
 
 var options = {
-  key: fs.readFileSync('/etc/letsencrypt/live/dev.oagov.com/cert.pem'),
-  cert: fs.readFileSync('/etc/letsencrypt/live/dev.oagov.com/privkey.pem')
+  //key: fs.readFileSync('/etc/letsencrypt/live/dev.oagov.com/cert.pem'),
+  //cert: fs.readFileSync('/etc/letsencrypt/live/dev.oagov.com/privkey.pem')
 };
 
 
